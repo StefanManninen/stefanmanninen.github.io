@@ -1,0 +1,13 @@
+# Integritetspolicy för Min Simpla App - 20 Mars 2024
+
+## Insamling av information
+Denna app installeras lokalt och kräver ingen användarinformation. Ingen information samlas in.
+
+## Användning/delning av information
+Eftersom denna app installeras lokalt och inte samlar in någon användarinformation, finns det ingen information att använda eller dela.
+
+## Ändringar i denna policy
+Vi kan göra ändringar i denna policy från tid till annan. Om vi gör ändringar kommer vi att meddela dig genom att uppdatera datumet högst upp på policyn.
+
+## Kontakt
+Om du har några frågor om denna policy, vänligen kontakta oss på: policy@stefanmanninen.se
