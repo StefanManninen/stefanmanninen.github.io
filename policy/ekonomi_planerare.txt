@@ -1,0 +1,38 @@
+Integritetspolicy för Ekonomi Planerare
+Gäller från och med: 24 juni 2025
+
+Välkommen till Ekonomi Planerare! Din integritet och säkerheten kring din personliga information är oerhört viktig för oss. Denna policy förklarar vilken information vi hanterar, hur den används och, viktigast av allt, hur den skyddas.
+
+1. Vilken information vi samlar in
+För att kunna erbjuda appens funktionalitet hanterar vi följande typer av data:
+
+Information du själv anger: Detta inkluderar de transaktioner och mallar du skapar. Specifikt handlar det om namn, belopp, datum, typ (utgift/inkomst) och dag för återkommande händelser.
+Kontoinformation: För att du ska kunna logga in och synkronisera din data mellan olika enheter använder vi Firebase Authentication. Detta hanterar din e-postadress och ett unikt användar-ID (UID). Vi lagrar aldrig ditt lösenord.
+Anonym användningsdata: Vi kan komma att använda oss av anonyma analystjänster (som Google Analytics for Firebase) för att förstå hur appen används, hitta och åtgärda buggar samt förbättra användarupplevelsen. Denna data är aggregerad och kan inte kopplas till dig som person.
+2. Hur vi använder din information
+Din information används uteslutande för följande syften:
+
+För att tillhandahålla tjänsten: Kärnan i appen är att säkert lagra din data i molnet så att du kan komma åt den från alla dina enheter.
+För att förbättra appen: Genom att förstå vilka funktioner som används kan vi prioritera framtida utveckling och förbättra appens stabilitet.
+För att kommunicera med dig: Om du kontaktar oss via vår support-e-post använder vi din e-postadress för att kunna svara på dina frågor.
+3. Datasäkerhet – Vårt löfte till dig
+Din ekonomi är din ensak. Vi har byggt den här appen med en "zero knowledge"-princip.
+
+End-to-end-kryptering: All känslig information – specifikt namn och belopp på dina transaktioner och mallar – krypteras direkt på din enhet (telefon/surfplatta) innan den skickas till databasen. Nyckeln för att dekryptera datan skapas från ditt unika användar-ID och lagras säkert på din enhet.
+Ingen insyn: Denna säkerhetsmodell innebär att vi som utvecklare, eller vår molnleverantör (Google Firebase), omöjligt kan se vad dina transaktioner heter eller vilka belopp de har. Allt vi ser i databasen är slumpmässiga, krypterade teckensträngar.
+Metadata: För att funktioner som sortering på datum, filtrering på typ (utgift/inkomst) och hantering av återkommande händelser ska fungera, sparas icke-känslig metadata (datum, typ, återkommande-dag, betald-status) okrypterad.
+4. Delning av information
+Vi säljer eller delar aldrig din personliga information med tredjepartsannonsörer eller datamäklare.
+
+Den enda tredjepart som är involverad i tjänsten är Google (Firebase), som tillhandahåller den säkra databas-, autentiserings- och molninfrastruktur som appen är byggd på. På grund av vår krypteringsmodell har inte heller de tillgång till din känsliga finansiella data.
+
+5. Radering av data
+Du har full kontroll över din data. Du kan när som helst radera enskilda transaktioner och mallar inifrån appen. Om du vill radera hela ditt konto och all tillhörande data, kan du göra det via appens kontoinställningar eller genom att kontakta vår support.
+
+6. Ändringar i denna policy
+Vi kan göra ändringar i denna policy från tid till annan. Om vi gör betydande ändringar kommer vi att meddela dig genom att uppdatera datumet högst upp på policyn och vid behov via andra kanaler.
+
+7. Kontakt
+Om du har några frågor om denna integritetspolicy, vänligen kontakta oss på: policy@stefanmanninen.se
+
+Disclaimer: Denna integritetspolicy är skriven för att vara så tydlig och transparent som möjligt för användaren. Den är inte ett juridiskt dokument granskat av en advokat.
