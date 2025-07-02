@@ -3,42 +3,52 @@ Denna integritetspolicy beskriver hur Keep it Simple Links (”Appen”), utveck
 
 1. Vilken information samlas in?
 
-Länkinformation: Appen samlar in och lagrar de länkar du sparar, inklusive titel, URL, anteckningar, taggar, domän, favikon-URL och tidsstämplar för när de skapades och senast ändrades.
+Länkinformation: Appen samlar in och lagrar de länkar du sparar, inklusive titel, URL, anteckningar, taggar, domän, favikon-URL och tidsstämplar för 
+när de skapades och senast ändrades.
 
-Autentiseringsinformation (vid inloggning): Om du väljer att logga in med ditt Google-konto för molnsynkronisering, får vi tillgång till den e-postadress, det visningsnamn (display name) och den profilbild (URL) som är kopplad till ditt Google-konto, samt ett unikt användar-ID (UID) från Firebase Authentication.
+Autentiseringsinformation (vid inloggning): Om du väljer att logga in med ditt Google-konto för molnsynkronisering, får vi tillgång till den e-postadress, 
+det visningsnamn (display name) och den profilbild (URL) som är kopplad till ditt Google-konto, samt ett unikt användar-ID (UID) från Firebase Authentication.
 
 Viktigt: Vi har aldrig tillgång till ditt Google-lösenord.
 
-Användardata för molnsynkronisering: Om du är inloggad, synkroniseras dina sparade länkar till en privat och säker del av din Firebase Firestore-databas. Denna data är kopplad till ditt användar-ID.
+Användardata för molnsynkronisering: Om du är inloggad, synkroniseras dina sparade länkar till en privat och säker del av din Firebase Firestore-databas. 
+Denna data är kopplad till ditt användar-ID.
 
 2. Hur används informationen?
 
 För att tillhandahålla tjänsten: Din länkinformation lagras lokalt på din enhet för att du ska kunna hantera och söka bland dina länkar i appen.
 
-För molnsynkronisering: Din autentiseringsinformation används för att verifiera din identitet och för att säkert lagra och synkronisera dina länkar i molnet (Firebase Firestore) mellan dina enheter.
+För molnsynkronisering: Din autentiseringsinformation används för att verifiera din identitet och för att säkert lagra och synkronisera dina länkar 
+i molnet (Firebase Firestore) mellan dina enheter.
 
-För apputveckling och förbättring: Anonymiserad och aggregerad data kan användas för att förstå hur appen används i stort, för att förbättra funktioner och användarupplevelsen.
+För apputveckling och förbättring: Anonymiserad och aggregerad data kan användas för att förstå hur appen används i stort, för att förbättra funktioner 
+och användarupplevelsen.
 
 3. Hur skyddas din information?
 
-Säker molnlagring: All molndata lagras i Google Firebase Firestore, som använder robusta säkerhetsåtgärder och kryptering för att skydda din information. Din länkinformation är kopplad till ditt unika användar-ID och kan endast nås av dig när du är inloggad.
+Säker molnlagring: All molndata lagras i Google Firebase Firestore, som använder robusta säkerhetsåtgärder och kryptering för att skydda din information. 
+Din länkinformation är kopplad till ditt unika användar-ID och kan endast nås av dig när du är inloggad.
 
 Lokal lagring: Din länkinformation lagras lokalt på din enhet i en privat databas (SQLite), vilken endast din app har åtkomst till som standard.
 
 Ingen delning med tredje part: Vi säljer, hyr ut eller delar inte din personligt identifierbara information med tredje part för marknadsföringsändamål.
 
-Begränsad åtkomst: Endast Stefan Manninen (utvecklaren) har tillgång till molnserverdata för underhåll och felsökning, och åtkomst sker alltid under strikta säkerhetsprotokoll.
+Begränsad åtkomst: Endast Stefan Manninen (utvecklaren) har tillgång till molnserverdata för underhåll och felsökning, och åtkomst sker alltid under 
+strikta säkerhetsprotokoll.
 
 4. Dina val och rättigheter
 
 Inloggning: Du väljer själv om du vill logga in med ditt Google-konto för att använda molnsynkronisering. Appen fungerar fullt ut lokalt utan inloggning.
 
-Radering av data: Du kan när som helst radera länkar direkt i appen. Om du raderar en länk när du är inloggad, kommer den även att raderas från din molnlagring. Om du raderar ditt Google-konto som används med appen, kommer all din data kopplad till det kontot i Firebase Firestore att raderas.
+Radering av data: Du kan när som helst radera länkar direkt i appen. Om du raderar en länk när du är inloggad, kommer den även att raderas från din 
+molnlagring. Om du raderar ditt Google-konto som används med appen, kommer all din data kopplad till det kontot i Firebase Firestore att raderas.
 
-Kontakt: Om du har frågor om denna integritetspolicy eller vill utöva dina rättigheter (t.ex. begära tillgång till eller radering av din data), vänligen kontakta Stefan Manninen via [din e-postadress eller kontaktformulär på din webbsida].
+Kontakt: Om du har frågor om denna integritetspolicy eller vill utöva dina rättigheter (t.ex. begära tillgång till eller radering av din data), vänligen 
+kontakta Stefan Manninen via [app@stefanmanninen.se].
 
 5. Ändringar i denna policy
 
-Denna integritetspolicy kan komma att uppdateras från tid till annan. Vi kommer att meddela dig om eventuella betydande ändringar genom att publicera den nya policyn på vår webbsida eller inom appen.
+Denna integritetspolicy kan komma att uppdateras från tid till annan. Vi kommer att meddela dig om eventuella betydande ändringar genom att publicera 
+den nya policyn på vår webbsida eller inom appen.
 
 Senast uppdaterad: 2025-07-02
