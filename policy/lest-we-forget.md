@@ -1,54 +1,72 @@
-Integritetspolicy för Lest We Forget
-Denna integritetspolicy beskriver hur Lest We Forget (”Appen”), utvecklad av Stefan Manninen, samlar in, använder och skyddar din information.
+# Integritetspolicy för Lest We Forget
 
-1. Vilken information samlas in?
+Denna integritetspolicy beskriver hur **Lest We Forget** (”Appen”), utvecklad av **Stefan Manninen**, samlar in, använder och skyddar din information.
 
-Information: Appen samlar in och lagrar de dokument du sparar, inklusive titel, anteckningar, taggar, och tidsstämplar för 
-när de skapades och senast ändrades.
+---
 
-Autentiseringsinformation (vid inloggning): Om du väljer att logga in med ditt Google-konto för molnsynkronisering, får vi tillgång till den e-postadress, 
-det visningsnamn (display name) och den profilbild (URL) som är kopplad till ditt Google-konto, samt ett unikt användar-ID (UID) från Firebase Authentication.
+## 1. Vilken information samlas in?
 
-Viktigt: Vi har aldrig tillgång till ditt Google-lösenord.
+- **Användarinnehåll**  
+  Appen samlar in och lagrar de poster du sparar – inklusive titel, innehåll, taggar samt tidpunkter för när de skapades och senast ändrades.
 
-Användardata för molnsynkronisering: Om du är inloggad, synkroniseras dina sparade länkar till en privat och säker del av din Firebase Firestore-databas. 
-Denna data är kopplad till ditt användar-ID.
+- **Autentiseringsinformation (vid inloggning)**  
+  Om du väljer att logga in med ditt Google-konto för molnsynkronisering får vi tillgång till:
+  - Din e-postadress  
+  - Ditt visningsnamn  
+  - Länken till din profilbild  
+  - Ett unikt användar-ID (UID) via Firebase Authentication
 
-2. Hur används informationen?
+  > **Observera**: Vi har aldrig tillgång till ditt Google-lösenord.
 
-För att tillhandahålla tjänsten: Din länkinformation lagras lokalt på din enhet för att du ska kunna hantera och söka bland dina länkar i appen.
+- **Molndata**  
+  Om du är inloggad synkroniseras dina poster till en privat och säker del av din Firebase Firestore-databas, kopplad till ditt UID.
 
-För molnsynkronisering: Din autentiseringsinformation används för att verifiera din identitet och för att säkert lagra och synkronisera dina länkar 
-i molnet (Firebase Firestore) mellan dina enheter.
+---
 
-För apputveckling och förbättring: Anonymiserad och aggregerad data kan användas för att förstå hur appen används i stort, för att förbättra funktioner 
-och användarupplevelsen.
+## 2. Hur används informationen?
 
-3. Hur skyddas din information?
+- **För att tillhandahålla appens funktioner**  
+  Dina poster lagras lokalt på enheten så att du kan hantera dem offline.
 
-Säker molnlagring: All molndata lagras i Google Firebase Firestore, som använder robusta säkerhetsåtgärder och kryptering för att skydda din information. 
-Din länkinformation är kopplad till ditt unika användar-ID och kan endast nås av dig när du är inloggad.
+- **För molnsynkronisering**  
+  Din autentisering används för att säkerställa att endast du kan komma åt dina data mellan flera enheter via Firebase Firestore.
 
-Lokal lagring: Din information lagras lokalt på din enhet i en privat databas (SQLite), vilken endast din app har åtkomst till som standard.
+- **För att förbättra appen**  
+  Anonym och aggregerad användningsdata kan användas för att förbättra funktioner och användarupplevelsen.
 
-Ingen delning med tredje part: Vi säljer, hyr ut eller delar inte din personligt identifierbara information med tredje part för marknadsföringsändamål.
+---
 
-Begränsad åtkomst: Endast Stefan Manninen (utvecklaren) har tillgång till molnserverdata för underhåll och felsökning, och åtkomst sker alltid under 
-strikta säkerhetsprotokoll.
+## 3. Hur skyddas din information?
 
-4. Dina val och rättigheter
+- **Säker molnlagring**  
+  Synkroniserad data lagras i Google Firebase Firestore, som erbjuder kryptering och strikta säkerhetsrutiner. Din data är kopplad till ditt UID och kräver inloggning.
 
-Inloggning: Du väljer själv om du vill logga in med ditt Google-konto för att använda molnsynkronisering. Appen fungerar fullt ut lokalt utan inloggning.
+- **Lokal lagring**  
+  Poster lagras i en lokal SQLite-databas på din enhet, endast tillgänglig för denna app.
 
-Radering av data: Du kan när som helst radera dokumment direkt i appen. Om du raderar ett dokument när du är inloggad, kommer den även att raderas från din 
-molnlagring. Om du raderar ditt Google-konto som används med appen, kommer all din data kopplad till det kontot i Firebase Firestore att raderas.
+- **Ingen delning med tredje part**  
+  Vi säljer, hyr ut eller delar aldrig din personliga information med tredje part i marknadsföringssyfte.
 
-Kontakt: Om du har frågor om denna integritetspolicy eller vill utöva dina rättigheter (t.ex. begära tillgång till eller radering av din data), vänligen 
-kontakta Stefan Manninen via [app@stefanmanninen.se].
+- **Begränsad åtkomst**  
+  Endast utvecklaren, **Stefan Manninen**, har begränsad åtkomst till molndatabasen i syfte att underhålla eller felsöka appen, och detta sker under strikt kontroll.
 
-5. Ändringar i denna policy
+---
 
-Denna integritetspolicy kan komma att uppdateras från tid till annan. Vi kommer att meddela dig om eventuella betydande ändringar genom att publicera 
-den nya policyn på vår webbsida eller inom appen.
+## 4. Dina val och rättigheter
 
-Senast uppdaterad: 2025-07-13
+- **Inloggning är valfri**  
+  Du kan använda appen helt och hållet utan att logga in. Synkronisering är en extra funktion.
+
+- **Radering av data**  
+  Du kan när som helst radera poster i appen. Om du är inloggad raderas dessa även i molnet. Om du raderar ditt Google-konto kommer all kopplad data i Firestore att tas bort.
+
+- **Kontakt**  
+  Vid frågor om denna policy eller om du vill begära tillgång till eller radering av din data, kontakta: [app@stefanmanninen.se](mailto:app@stefanmanninen.se)
+
+---
+
+## 5. Ändringar i policyn
+
+Denna integritetspolicy kan uppdateras vid behov. Större förändringar meddelas i appen eller på vår webbplats.
+
+**Senast uppdaterad: 13 juli 2025**
